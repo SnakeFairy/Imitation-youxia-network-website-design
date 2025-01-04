@@ -1,0 +1,493 @@
+.getsite_1200 {
+    width: 1200px;
+    margin: 10px auto
+}
+
+.assort-container {
+    width: 1194px;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: #eef1f5;
+    box-shadow: 0px 2px 15px 1px rgba(108, 123, 144, 0.39);
+    border-radius: 10px;
+    padding: 1px 0;
+}
+
+.list-type {
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 0 10px
+}
+
+.list-type .load-more.hide {
+    display: none
+}
+
+.list-type .load-more {
+    position: absolute;
+    top: 3px;
+    right: 15px;
+    width: 45px;
+    height: 20px;
+    cursor: pointer;
+    color: #737FA2;
+    line-height: 20px;
+}
+
+.list-type .load-more:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    background: url(../images/downlistshow.png);
+}
+
+.list-type .load-more:hover {
+    color: red;
+}
+
+.list-type .load-more.checked:before {
+    background: url(../images/downlisthide.png);
+}
+
+.list-type p {
+    float: left;
+    width: 84px;
+    text-align: center;
+    font-size: 14px;
+    height: 29px;
+    line-height: 29px;
+    color: #eef1f5;
+    margin-right: 22px;
+    background: url(../images/s_listbtn.png);
+}
+
+.list-ul-box {
+    margin: auto;
+    font-size: 0;
+    width: 1060px;
+    float: left;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 13px;
+}
+
+.list-ul {
+    overflow: hidden;
+}
+
+.list-ul > span {
+    width: 120px;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    text-align: left;
+    overflow: hidden;
+    border-radius: 14px;
+    margin-bottom: 6px;
+    font-size: 0;
+    margin-right: 8px;
+    float: left;
+}
+
+.list-ul span a {
+    display: inline-block;
+    height: 100%;
+    color: #5a5a5a;
+    font-size: 14px;
+    padding: 0 12px;
+}
+
+.list-ul a.checked, .list-ul a:hover {
+    background-color: #f4d7d3;
+    color: #ff5325;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.assort-result-container {
+    height: 54px;
+    box-sizing: border-box;
+    padding: 14px 10px;
+    width: 100%;
+    margin-top: 4px;
+    padding-left: 127px;
+}
+
+.assort-result-container .clear-all {
+    height: 26px;
+    line-height: 26px;
+    float: left;
+    text-decoration: underline;
+    font-size: 14px;
+    color: #f85802;
+    margin-left: 23px
+}
+
+.assort-result-container .result-num {
+    height: 26px;
+    line-height: 24px;
+    text-align: right;
+    font-size: 12px;
+    color: #2b2b2b;
+    float: left
+}
+
+.assort-result-container .result-num span {
+    font-size: 18px;
+    color: #ff5122
+}
+
+.assort-result-container p {
+    float: left;
+    width: 74px;
+    text-align: left;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    color: #656565
+}
+
+.assort-result-container .result-ul {
+    margin: auto;
+    font-size: 0;
+    float: left;
+    height: 26px;
+    overflow: hidden
+}
+
+.result-ul a {
+    display: inline-block;
+    height: 26px;
+    box-sizing: border-box;
+    line-height: 24px;
+    font-size: 14px;
+    color: #888;
+    border: 1px solid #f85802;
+    border-radius: 3px;
+    padding: 0 3px 0 10px;
+    margin-right: 5px
+}
+
+.result-ul a span {
+    color: #f85802
+}
+
+.result-ul a i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../images/ico9.png) no-repeat;
+    border-radius: 3px;
+    font-size: 0;
+    vertical-align: text-bottom
+}
+
+.result-container {
+    width: 1200px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 10px auto 0;
+    padding: 5px 10px 20px 10px
+}
+
+.sort-container {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #e2e2e2
+}
+
+.sort-container a {
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    margin-top: 10px;
+    position: relative;
+    font-size: 14px;
+    color: #888;
+    margin-right: 24px;
+    padding-right: 15px;
+    cursor: pointer;
+    display: block
+}
+
+.sort-container a.active {
+    font-weight: bold;
+    color: #f85802
+}
+
+.sort-container a:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 12px;
+    top: 4px;
+    right: -3px;
+    height: 12px;
+    background: url(../images/default.png) no-repeat
+}
+
+.sort-container .active:before {
+    background-image: url(../images/active.png)
+}
+
+.famous-ul-container {
+    overflow: hidden;
+    padding-left: 12px
+}
+
+.famous-ul {
+    width: 1200px;
+    box-sizing: border-box;
+    padding-top: 24px
+}
+
+.famous-li {
+    width: 158px;
+    height: 270px;
+    float: left;
+    margin: 0 42px 20px 0;
+    position: relative
+}
+
+.famous-li img {
+    width: 158px;
+    height: 210px;
+    border-radius: 8px;
+    vertical-align: bottom
+}
+
+.famous-li .game-lang {
+    position: absolute;
+    top: 5px;
+    left: -3px;
+    display: inline-block;
+    padding: 0 5px;
+    height: 19px;
+    background-color: #f85802;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 19px;
+    font-size: 12px;
+    color: #fff;
+    z-index: 3
+}
+
+.famous-li .game-type {
+    position: absolute;
+    bottom: 60px;
+    height: 41px;
+    background: linear-gradient(to top, black, transparent);
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 0 0 8px 8px
+}
+
+.famous-li .game-name {
+    font-size: 14px;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    color: #666;
+    overflow: hidden;
+    text-align: center
+}
+
+.famous-li .hover-content {
+    width: 158px;
+    height: 210px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    box-sizing: border-box;
+    padding: 52px 0 0 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none
+}
+
+.content-a:hover .hover-content {
+    display: block
+}
+
+.famous-li .hover-content div {
+    height: 14px;
+    line-height: 14px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto 6px;
+    font-size: 12px;
+    color: #ccc;
+    box-sizing: border-box;
+    padding-right: 7px
+}
+
+.famous-li .hover-content div span {
+    color: #fff
+}
+
+.famous-li .hover-content p {
+    height: 110px;
+    width: 100%;
+    overflow: hidden;
+    font-size: 0
+}
+
+.famous-li .hover-content p span {
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px 6px;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 0 6px 6px 0
+}
+
+.famous-li .other-edition {
+    display: none;
+    width: 65px;
+    height: 26px;
+    border-radius: 4px;
+    border: solid 1px #ccc;
+    text-align: center;
+    line-height: 26px;
+    font-size: 12px;
+    color: #888;
+    vertical-align: bottom;
+    float: left
+}
+
+.famous-li .game-down {
+    width: 156px;
+    height: 26px;
+    display: inline-block;
+    border-radius: 4px;
+    border: solid 1px #f85802;
+    line-height: 26px;
+    text-align: center;
+    font-size: 12px;
+    color: #f85802;
+    overflow: hidden;
+    vertical-align: bottom;
+    float: right
+}
+
+.famous-li .game-down:hover {
+    background-color: #f85802;
+    color: white
+}
+
+.downlistsearch {
+    width: 1200px;
+    height: 105px;
+    margin: auto;
+    background-image: url(../images/s_downhead.png)
+}
+
+.downlistsearch div, .downlistsearch a {
+    float: left;
+    height: 52px;
+    line-height: 52px;
+    margin-top: 22px;
+}
+
+.downlistsearch .t1 {
+    font-family: MicrosoftYaHei;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: #4b6281;
+    width: 140px;
+    text-align: center;
+    margin-left: 27px;
+}
+
+.downlistsearch .t2 {
+    margin-left: 20px;
+    width: 515px;
+}
+
+.downlistsearch .t2 input {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 25px;
+    letter-spacing: 0px;
+    color: #657d9d;
+    font-size: 16px;
+}
+
+.downlistsearch .t3 {
+    width: 58px;
+}
+
+.downlistsearch .t3 input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    cursor: pointer;
+}
+
+.downlistsearch .t7 {
+    width: 109px;
+    height: 52px;
+    text-align: center;
+    background: url(../images/gohome.png) no-repeat center center;
+    color: #ffffff;
+    line-height: 47px;
+    text-indent: -15px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+.downlistsearch a {
+    position: relative;
+    padding-left: 20px;
+    letter-spacing: 0px;
+    color: #596c86;
+    opacity: 0.93;
+    font-size: 14px;
+    margin-left: 25px;
+}
+
+.downlistsearch a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 19px;
+    left: 0px;
+    width: 14px;
+    height: 14px
+}
+
+.downlistsearch a.t4:before {
+    background-image: url(../images/s_ph.png)
+}
+
+.downlistsearch a.t5:before {
+    background-image: url(../images/s_sm.png)
+}
+
+.downlistsearch a.t6:before {
+    background-image: url(../images/s_yxk.png)
+}
+
+
+
+
+
+
+
+
+

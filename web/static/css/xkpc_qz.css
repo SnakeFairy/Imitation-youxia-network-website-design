@@ -1,0 +1,18 @@
+body{padding:0;margin:0;}
+#con_yxpc_3{background:#fafafa;margin:15px 0;}
+.pc_qz_xk_con {display: none;position: relative;/* width: 310px; */}
+.pc_qz_xk_con.active {display: block;}
+.pc_qz_xk_con a {position: relative;z-index: 1;display: block;width: 100%;}
+.pc_qz_xk_con >a > img {display: block;width: 100%;height: 100%}
+
+.pc_qz_xk_con_b {position: relative;/* width: 310px; */height: 48px;line-height: 48px;border-bottom: 1px solid #ccc;}
+.pc_qz_xk_con_b.hide {display: none;}
+.pc_qz_xk_con_b img {float: left;width: 70px;height: 35px;margin: 7px 10px 0 5px;}
+.pc_qz_xk_con_b font {float: left;letter-spacing: 1px;color: #888;font-size: 13px;}
+.pc_qz_xk_con_b em{width: 18px;height: 12px;float: right;margin-top: 20px;background: url(https://www.ali213.net/images/sjzs/sjzs_0_0.png);}
+
+.pc_qz_xk_info{width: 100%;height: 40px;position: relative;z-index: 1;background: #4b4c47;}
+.pc_qz_xk_info span{float: left;width: 31%;height: 40px;margin: 0 4px 0 5px;display: inline;}
+.pc_qz_xk_info span img{display: block;height: 100%}
+.pc_qz_xk_info p{float: left;width: 28%;outline: none;font-size: 13px;color: #00b4ff;border-radius: 3px;margin: 0 6%;line-height: 20px;border: 0;display: inline;height: 40px;overflow: hidden;text-align: center;}
+.pc_qz_xk_info em{width: 70px;line-height: 30px;background-color: #0cbaf7;cursor: pointer;float: right;border-radius: 3px;color: #fff;margin-top: 5px;font-style: normal;text-align: center;font-size: 13px;margin-right: 5px;}
